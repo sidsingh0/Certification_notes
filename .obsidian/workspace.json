@@ -197,8 +197,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "e2f0aa8c99753871",
+  "active": "381d7dd1da2af38b",
   "lastOpenFiles": [
+    "Lectures.txt.txt",
     "AWS-SAA/7. S3/1. Basics.md",
     "AWS-SAA/7. S3/2. Security.md",
     "AWS-SAA/6. Elastic Beanstalk/1. Basics.md",
@@ -237,7 +238,6 @@
     "AWS-SAA/3. ELB & ESG",
     "AWS-SAA/1. IAM/attachments/Pasted image 20260408021939.png",
     "AWS-SAA/1. IAM/attachments/Pasted image 20260408021932.png",
-    "AWS-SAA/1. IAM/5. EC2 Purchasing Options.md",
     "AWS-SAA/2.EC2",
     "AWS-SAA/1. IAM/attachments/Pasted image 20260402235245.png",
     "AWS-SAA/1. IAM/attachments/Pasted image 20260403005804.png",
