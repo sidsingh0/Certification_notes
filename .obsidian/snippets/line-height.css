@@ -1,0 +1,22 @@
+/* Adjust line height in Editing (Live Preview/Source) Mode */
+.cm-contentContainer {
+    line-height: 1.8;
+}
+
+/* Adjust line height in Reading Mode */
+.markdown-rendered {
+    line-height: 1.8;
+}
+
+strong, b {
+    font-weight: 800 !important;
+}
+
+/* Style for both Editor (Live Preview) and Reading Mode */
+.cm-em, em {
+    text-decoration: underline;
+    font-weight: 400 !important;
+    text-underline-offset: 3px; /* Moves the line 8px further down */
+    text-decoration-thickness: 1px; /* Makes it thin */
+    text-decoration-color:  #666666; /* You can also use #808080 or rgb(128, 128, 128) */
+}
