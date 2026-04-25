@@ -1,0 +1,22 @@
+- Cloudfront improves live streaming + on demand video latency
+- Cloudfront can have multiple origins based on path. i.e. /img/ -> s3 origin, /api/ -> alb origin
+- Cloudfront does not support TCP UDP
+- Global Accelerator is mainly meant for TCP UDP traffic for EC2 or load balancers
+- Do not put Global Accelerator infront of Cloudfront (Then CF cant cache)
+- For lift and shift (migrate on premise to cloud, rehosting)
+	- Use AWS Application Migration Service. Install the AWS Replication Agent on the VM 
+	- Complete intial replication of VM. Launch instances to perform acceptance tests.
+	- Finally stop all on premise VMs and launch a cutover instance
+- AwS direct Connect is used to establish connection between on premise architecture and aws
+- Schema conversion tool is used when migrating from one db engine to another
+- DB Migration Service is used when migrating from same db engine. To migrate with 0 downtime -> create a ongoing replication task
+- Stateless, breakable, any capacity over baseline -> Spot instances
+- RDS Snapshot are service level feature and not automatically stored in S3
+- S3 Inventory is used for auditing and reporting objects in a bucket, it cannot do anything without S3 Batch operations
+- ALB are for single region load balancing and Route 53 for multi region!
+- S3 File gateway is better than mount point because it has caching
+- Image processing/large files cant be processed on lmbda
+- VPC peering service connects 2 entire vpc not just one machine
+- AWS Amplify is used to design web and mobile app, not migrate app
+- DNS generally uses UDP
+- Interface endpoints are paid service
