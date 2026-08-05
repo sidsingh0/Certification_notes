@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b240a9c31181741a",
+        "id": "73c26624c70b4d81",
         "type": "tabs",
         "children": [
           {
-            "id": "87ca9a9e3e8553c1",
+            "id": "90faeb3a3ab0711a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "GCP-DEP/2. Access control/6. Access Approvals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Access Approvals"
             }
           }
         ]
@@ -37,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -49,12 +55,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fleet",
+                "query": "VPC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -90,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS-SAA/Basics.md",
+                "file": "GCP-DEP/10 . Networking/4. Project Isolation Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Basics"
+              "title": "Backlinks"
             }
           },
           {
@@ -179,53 +185,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "87ca9a9e3e8553c1",
+  "active": "90faeb3a3ab0711a",
   "lastOpenFiles": [
-    "AZ-140-AVD/1. Basics/2. Powershell.md",
-    "AZ-140-AVD/1. Basics/1. Basics.md",
-    "AZ-140-AVD/1. Basics/Basics.md",
-    "AZ-140-AVD/1. Basics/attachments/Pasted image 20260526211025.png",
-    "AZ-140-AVD/1. Basics/attachments",
-    "AZ-140-AVD/1. Basics",
-    "AWS-SAA/8. S3 Advanced/6. Storage Lens.md",
-    "AWS-SAA/8. S3 Advanced/5. Batch Operations.md",
-    "AWS-SAA/8. S3 Advanced/4. S3 Baseline Performance.md",
-    "AWS-SAA/8. S3 Advanced/3. S3 Event Notifications.md",
-    "AWS-SAA/8. S3 Advanced/2. Requester Pays.md",
-    "AWS-SAA/7. S3/5. Replication.md",
-    "AWS-SAA/7. S3/4. Versioning.md",
-    "AWS-SAA/7. S3/3. S3 Static Website Hosting.md",
-    "AWS-SAA/7. S3/2. Security.md",
-    "AWS-SAA/6. Elastic Beanstalk/1. Basics.md",
-    "AWS-SAA/3. ELB & ESG/9. ASG.md",
-    "AWS-SAA/3. ELB & ESG/8. SNI.md",
-    "AWS-SAA/3. ELB & ESG/7. Sticky Sessions.md",
-    "AWS-SAA/3. ELB & ESG/5. GWLB.md",
-    "AWS-SAA/AWS Security & Encryption/4. AWS WAF.md",
-    "AWS-SAA/Networking/4. VPC Peering.md",
-    "AWS-SAA/Networking/3. NACL.md",
-    "AWS-SAA/Networking/2. NAT Instances.md",
-    "attachments/Pasted image 20260430011049.png",
-    "attachments/Pasted image 20260430004704.png",
-    "attachments/Pasted image 20260430004326.png",
-    "AWS-SAA/Networking/1. VPC.md",
-    "attachments/Pasted image 20260429070704.png",
-    "attachments/Pasted image 20260429070456.png",
-    "AWS Certified Solutions Architect Slides v37.pdf",
-    "AWS-SAA/1. IAM/6. Spot Instances and Fleets.md",
-    "attachments/Pasted image 20260429061154.png",
-    "attachments/Pasted image 20260429054615.png",
-    "AWS-SAA/Networking",
-    "IMPORTANT POINTS.md",
-    "AWS Certified Solutions Architect Slides v37 (1).pdf",
-    "AWS-SAA/2.EC2/3. Instance Types.md",
-    "AWS-SAA/14. Serverless/2. DynamoDB.md",
-    "AWS-SAA/16. Data Analytics/attachments/Pasted image 20260421061240.png",
-    "AWS-SAA/16. Data Analytics/attachments/Pasted image 20260421060820.png",
-    "AWS-SAA/16. Data Analytics/attachments",
-    "AWS-SAA/16. Data Analytics",
-    "AWS-SAA/15. Database",
-    "AWS-SAA/9. S3 Security",
-    "AWS-SAA/14. Serverless/attachments"
+    "GCP-DEP/2. Access control/5. IAM.md",
+    "GCP-DEP/2. Access control/4. Org Level Roles.md",
+    "GCP-DEP/2. Access control/6. Access Approvals.md",
+    "GCP-DEP/2. Access control/3. Project identifiers.md",
+    "GCP-DEP/2. Access control/2. Resource heirarchy.md",
+    "GCP-DEP/2. Access control/1. Google SDK.md",
+    "GCP-DEP/1. Foundation/5. ETL and ELT.md",
+    "GCP-DEP/1. Foundation/4. Machine Learning.md",
+    "GCP-DEP/1. Foundation/5.5 Batch vs Streaming.md",
+    "attachments/Pasted image 20260805031242.png",
+    "GCP-DEP/1. Foundation/6. Throughput and Latency.md",
+    "GCP-DEP/1. Foundation/2. Data types.md",
+    "GCP-DEP/1. Foundation/1. Data Lifecycle.md",
+    "attachments/Pasted image 20260805031134.png",
+    "GCP-DEP/1. Foundation/8. ACID.md",
+    "GCP-DEP/1. Foundation/7. Availability.md",
+    "GCP-DEP/1. Foundation/3. Big data tools.md",
+    "GCP-DEP/18. Data Integration and Transformation/1. Cloud DataFusion.md",
+    "GCP-DEP/17. Workflow Orchestration and Automation/1. Cloud Composer.md",
+    "GCP-DEP/17. Workflow Orchestration and Automation/9. Cloud Workflows.md",
+    "GCP-DEP/18. Data Integration and Transformation/7. DataPrep by Trifacta.md",
+    "attachments/Pasted image 20260804205107.png",
+    "attachments/Pasted image 20260804204930.png",
+    "attachments/Pasted image 20260804204849.png",
+    "GCP-DEP/18. Data Integration and Transformation/6. Dataform.md",
+    "attachments/Pasted image 20260804204034.png",
+    "GCP-DEP/18. Data Integration and Transformation/5. Datastream.md",
+    "GCP-DEP/18. Data Integration and Transformation/4. Encryption.md",
+    "GCP-DEP/18. Data Integration and Transformation/3. Wrangler.md",
+    "GCP-DEP/10 . Networking/4. Project Isolation Techniques.md",
+    "GCP-DEP/10 . Networking/3. Connecting to other networks.md",
+    "GCP-DEP/10 . Networking/2. Private Google Access.md",
+    "GCP-DEP/18. Data Integration and Transformation/attachments/Pasted image 20260804055943.png",
+    "attachments/Pasted image 20260804055851.png",
+    "attachments/Pasted image 20260804055810.png",
+    "attachments/Pasted image 20260804055738.png",
+    "GCP-DEP/18. Data Integration and Transformation/attachments",
+    "GCP-DEP/18. Data Integration and Transformation",
+    "17. Workflow Orchestration",
+    "GCP-DEP/17. Workflow Orchestration and Automation",
+    "GCP-DEP/16. Development and Operations/attachments",
+    "GCP-DEP/16. Development and Operations",
+    "GCP-DEP/15. BigQuery/attachments",
+    "GCP-DEP/15. BigQuery",
+    "GCP-DEP/14. BigTable/attachments",
+    "GCP-DEP/14. BigTable"
   ]
 }
